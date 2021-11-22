@@ -1,0 +1,62 @@
+﻿@model Kiosko.Models.Divisione
+
+@{
+    ViewData["Title"] = "Details";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<h1>DETALLES</h1>
+
+<div>
+   
+    <hr />
+    <dl class="row">
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.Nombredivision)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.Nombredivision)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.Coordinador)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.Coordinador)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.Descripciondivision)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.Descripciondivision)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.Planestudio)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.Planestudio)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.Videodivision)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.Videodivision)
+        </dd>
+        <dt class="col-sm-2">
+            <img src="~/img/@Html.DisplayFor(model => model.Fotodivision)" width="40" height="40" />
+      
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.Fotodivision)
+        </dd>
+    </dl>
+</div>
+<div>
+    <a class="btn btn-outline-primary" asp-action="Edit" asp-route-id="@Model.Iddivisiones">EDITAR</a> 
+    <a class="btn btn-outline-primary" asp-action="Index">REGRESAR</a>
+</div>

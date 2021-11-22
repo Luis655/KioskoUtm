@@ -1,0 +1,90 @@
+C:\Users\carmesy\Desktop\Materias\3-C\Aplicaciones web\Aplicacion nueva\Aplicacion Web1\bin\Debug\netcoreapp3.1\appsettings.Development.json
+C:\Users\carmesy\Desktop\Materias\3-C\Aplicaciones web\Aplicacion nueva\Aplicacion Web1\bin\Debug\netcoreapp3.1\appsettings.json
+C:\Users\carmesy\Desktop\Materias\3-C\Aplicaciones web\Aplicacion nueva\Aplicacion Web1\bin\Debug\netcoreapp3.1\Aplicacion Web1.exe
+C:\Users\carmesy\Desktop\Materias\3-C\Aplicaciones web\Aplicacion nueva\Aplicacion Web1\bin\Debug\netcoreapp3.1\Aplicacion Web1.deps.json
+C:\Users\carmesy\Desktop\Materias\3-C\Aplicaciones web\Aplicacion nueva\Aplicacion Web1\bin\Debug\netcoreapp3.1\Aplicacion Web1.runtimeconfig.json
+C:\Users\carmesy\Desktop\Materias\3-C\Aplicaciones web\Aplicacion nueva\Aplicacion Web1\bin\Debug\netcoreapp3.1\Aplicacion Web1.runtimeconfig.dev.json
+C:\Users\carmesy\Desktop\Materias\3-C\Aplicaciones web\Aplicacion nueva\Aplicacion Web1\bin\Debug\netcoreapp3.1\Aplicacion Web1.dll
+C:\Users\carmesy\Desktop\Materias\3-C\Aplicaciones web\Aplicacion nueva\Aplicacion Web1\bin\Debug\netcoreapp3.1\Aplicacion Web1.pdb
+C:\Users\carmesy\Desktop\Materias\3-C\Aplicaciones web\Aplicacion nueva\Aplicacion Web1\bin\Debug\netcoreapp3.1\Aplicacion Web1.Views.dll
+C:\Users\carmesy\Desktop\Materias\3-C\Aplicaciones web\Aplicacion nueva\Aplicacion Web1\bin\Debug\netcoreapp3.1\Aplicacion Web1.Views.pdb
+C:\Users\carmesy\Desktop\Materias\3-C\Aplicaciones web\Aplicacion nueva\Aplicacion Web1\obj\Debug\netcoreapp3.1\Aplicacion Web1.csprojAssemblyReference.cache
+C:\Users\carmesy\Desktop\Materias\3-C\Aplicaciones web\Aplicacion nueva\Aplicacion Web1\obj\Debug\netcoreapp3.1\Aplicacion Web1.AssemblyInfoInputs.cache
+C:\Users\carmesy\Desktop\Materias\3-C\Aplicaciones web\Aplicacion nueva\Aplicacion Web1\obj\Debug\netcoreapp3.1\Aplicacion Web1.AssemblyInfo.cs
+C:\Users\carmesy\Desktop\Materias\3-C\Aplicaciones web\Aplicacion nueva\Aplicacion Web1\obj\Debug\netcoreapp3.1\Aplicacion Web1.csproj.CoreCompileInputs.cache
+C:\Users\carmesy\Desktop\Materias\3-C\Aplicaciones web\Aplicacion nueva\Aplicacion Web1\obj\Debug\netcoreapp3.1\Aplicacion Web1.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\carmesy\Desktop\Materias\3-C\Aplicaciones web\Aplicacion nueva\Aplicacion Web1\obj\Debug\netcoreapp3.1\Aplicacion Web1.RazorAssemblyInfo.cache
+C:\Users\carmesy\Desktop\Materias\3-C\Aplicaciones web\Aplicacion nueva\Aplicacion Web1\obj\Debug\netcoreapp3.1\Aplicacion Web1.RazorAssemblyInfo.cs
+C:\Users\carmesy\Desktop\Materias\3-C\Aplicaciones web\Aplicacion nueva\Aplicacion Web1\obj\Debug\netcoreapp3.1\staticwebassets\Aplicacion Web1.StaticWebAssets.Manifest.cache
+C:\Users\carmesy\Desktop\Materias\3-C\Aplicaciones web\Aplicacion nueva\Aplicacion Web1\obj\Debug\netcoreapp3.1\staticwebassets\Aplicacion Web1.StaticWebAssets.xml
+C:\Users\carmesy\Desktop\Materias\3-C\Aplicaciones web\Aplicacion nueva\Aplicacion Web1\obj\Debug\netcoreapp3.1\scopedcss\bundle\Aplicacion Web1.styles.css
+C:\Users\carmesy\Desktop\Materias\3-C\Aplicaciones web\Aplicacion nueva\Aplicacion Web1\obj\Debug\netcoreapp3.1\Aplicacion Web1.TagHelpers.input.cache
+C:\Users\carmesy\Desktop\Materias\3-C\Aplicaciones web\Aplicacion nueva\Aplicacion Web1\obj\Debug\netcoreapp3.1\Aplicacion Web1.TagHelpers.output.cache
+C:\Users\carmesy\Desktop\Materias\3-C\Aplicaciones web\Aplicacion nueva\Aplicacion Web1\obj\Debug\netcoreapp3.1\Aplicacion Web1.RazorCoreGenerate.cache
+C:\Users\carmesy\Desktop\Materias\3-C\Aplicaciones web\Aplicacion nueva\Aplicacion Web1\obj\Debug\netcoreapp3.1\Razor\Views\Home\Index.cshtml.g.cs
+C:\Users\carmesy\Desktop\Materias\3-C\Aplicaciones web\Aplicacion nueva\Aplicacion Web1\obj\Debug\netcoreapp3.1\Razor\Views\Home\Privacy.cshtml.g.cs
+C:\Users\carmesy\Desktop\Materias\3-C\Aplicaciones web\Aplicacion nueva\Aplicacion Web1\obj\Debug\netcoreapp3.1\Razor\Views\Shared\Error.cshtml.g.cs
+C:\Users\carmesy\Desktop\Materias\3-C\Aplicaciones web\Aplicacion nueva\Aplicacion Web1\obj\Debug\netcoreapp3.1\Razor\Views\Shared\Footer.cshtml.g.cs
+C:\Users\carmesy\Desktop\Materias\3-C\Aplicaciones web\Aplicacion nueva\Aplicacion Web1\obj\Debug\netcoreapp3.1\Razor\Views\Shared\Navbar.cshtml.g.cs
+C:\Users\carmesy\Desktop\Materias\3-C\Aplicaciones web\Aplicacion nueva\Aplicacion Web1\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_Layout.cshtml.g.cs
+C:\Users\carmesy\Desktop\Materias\3-C\Aplicaciones web\Aplicacion nueva\Aplicacion Web1\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_ValidationScriptsPartial.cshtml.g.cs
+C:\Users\carmesy\Desktop\Materias\3-C\Aplicaciones web\Aplicacion nueva\Aplicacion Web1\obj\Debug\netcoreapp3.1\Razor\Views\_ViewImports.cshtml.g.cs
+C:\Users\carmesy\Desktop\Materias\3-C\Aplicaciones web\Aplicacion nueva\Aplicacion Web1\obj\Debug\netcoreapp3.1\Razor\Views\_ViewStart.cshtml.g.cs
+C:\Users\carmesy\Desktop\Materias\3-C\Aplicaciones web\Aplicacion nueva\Aplicacion Web1\obj\Debug\netcoreapp3.1\Aplicacion Web1.RazorTargetAssemblyInfo.cache
+C:\Users\carmesy\Desktop\Materias\3-C\Aplicaciones web\Aplicacion nueva\Aplicacion Web1\obj\Debug\netcoreapp3.1\Aplicacion Web1.RazorTargetAssemblyInfo.cs
+C:\Users\carmesy\Desktop\Materias\3-C\Aplicaciones web\Aplicacion nueva\Aplicacion Web1\obj\Debug\netcoreapp3.1\Aplicacion Web1.Views.pdb
+C:\Users\carmesy\Desktop\Materias\3-C\Aplicaciones web\Aplicacion nueva\Aplicacion Web1\obj\Debug\netcoreapp3.1\Aplicacion Web1.dll
+C:\Users\carmesy\Desktop\Materias\3-C\Aplicaciones web\Aplicacion nueva\Aplicacion Web1\obj\Debug\netcoreapp3.1\Aplicacion Web1.pdb
+C:\Users\carmesy\Desktop\Materias\3-C\Aplicaciones web\Aplicacion nueva\Aplicacion Web1\obj\Debug\netcoreapp3.1\Aplicacion Web1.genruntimeconfig.cache
+C:\Users\carmesy\Desktop\Materias\3-C\Aplicaciones web\Aplicacion nueva\Aplicacion Web1\obj\Debug\netcoreapp3.1\Aplicacion Web1.csproj.CopyComplete
+C:\Users\carmesy\Desktop\Materias\3-C\Aplicaciones web\Aplicacion nueva\Aplicacion Web1\obj\Debug\netcoreapp3.1\Razor\Views\Home\Proyectos.cshtml.g.cs
+C:\Users\carmesy\Desktop\Materias\3-C\Aplicaciones web\Aplicacion nueva\Aplicacion Web1\obj\Debug\netcoreapp3.1\Razor\Views\Home\Divisiones.cshtml.g.cs
+C:\Users\carmesy\Desktop\Materias\3-C\Aplicaciones web\Aplicacion nueva\Aplicacion Web1\obj\Debug\netcoreapp3.1\Razor\Views\Home\AcercaDe.cshtml.g.cs
+C:\Users\carmesy\Desktop\Materias\3-C\Aplicaciones web\Aplicacion nueva\Aplicacion Web1\obj\Debug\netcoreapp3.1\Razor\Views\Home\gestionProyectos.cshtml.g.cs
+C:\Users\carmesy\Desktop\Materias\3-C\Aplicaciones web\Aplicacion nueva\Aplicacion Web1\obj\Debug\netcoreapp3.1\Razor\Views\Home\Login.cshtml.g.cs
+C:\Users\carmesy\Desktop\Materias\3-C\Aplicaciones web\Aplicacion nueva\Aplicacion Web1\obj\Debug\netcoreapp3.1\Razor\Views\Home\InfoProyecto.cshtml.g.cs
+C:\Users\carmesy\Desktop\Materias\3-C\Aplicaciones web\Aplicacion nueva\Aplicacion Web1\obj\Debug\netcoreapp3.1\Razor\Views\Home\gestionDivision.cshtml.g.cs
+C:\Users\carmesy\Desktop\Materias\3-C\Aplicaciones web\Aplicacion nueva\Aplicacion Web1\obj\Debug\netcoreapp3.1\Razor\Views\Home\InfoDivision.cshtml.g.cs
+C:\Users\carmesy\Desktop\Materias\3-C\Aplicaciones web\Aplicacion nueva\Aplicacion Web1\bin\Debug\netcoreapp3.1\Humanizer.dll
+C:\Users\carmesy\Desktop\Materias\3-C\Aplicaciones web\Aplicacion nueva\Aplicacion Web1\bin\Debug\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\Users\carmesy\Desktop\Materias\3-C\Aplicaciones web\Aplicacion nueva\Aplicacion Web1\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.dll
+C:\Users\carmesy\Desktop\Materias\3-C\Aplicaciones web\Aplicacion nueva\Aplicacion Web1\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\carmesy\Desktop\Materias\3-C\Aplicaciones web\Aplicacion nueva\Aplicacion Web1\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Design.dll
+C:\Users\carmesy\Desktop\Materias\3-C\Aplicaciones web\Aplicacion nueva\Aplicacion Web1\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Users\carmesy\Desktop\Materias\3-C\Aplicaciones web\Aplicacion nueva\Aplicacion Web1\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.SqlServer.dll
+C:\Users\carmesy\Desktop\Materias\3-C\Aplicaciones web\Aplicacion nueva\Aplicacion Web1\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Caching.Abstractions.dll
+C:\Users\carmesy\Desktop\Materias\3-C\Aplicaciones web\Aplicacion nueva\Aplicacion Web1\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Caching.Memory.dll
+C:\Users\carmesy\Desktop\Materias\3-C\Aplicaciones web\Aplicacion nueva\Aplicacion Web1\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.Abstractions.dll
+C:\Users\carmesy\Desktop\Materias\3-C\Aplicaciones web\Aplicacion nueva\Aplicacion Web1\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyInjection.dll
+C:\Users\carmesy\Desktop\Materias\3-C\Aplicaciones web\Aplicacion nueva\Aplicacion Web1\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\carmesy\Desktop\Materias\3-C\Aplicaciones web\Aplicacion nueva\Aplicacion Web1\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Logging.dll
+C:\Users\carmesy\Desktop\Materias\3-C\Aplicaciones web\Aplicacion nueva\Aplicacion Web1\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\carmesy\Desktop\Materias\3-C\Aplicaciones web\Aplicacion nueva\Aplicacion Web1\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Options.dll
+C:\Users\carmesy\Desktop\Materias\3-C\Aplicaciones web\Aplicacion nueva\Aplicacion Web1\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Primitives.dll
+C:\Users\carmesy\Desktop\Materias\3-C\Aplicaciones web\Aplicacion nueva\Aplicacion Web1\bin\Debug\netcoreapp3.1\Microsoft.Identity.Client.dll
+C:\Users\carmesy\Desktop\Materias\3-C\Aplicaciones web\Aplicacion nueva\Aplicacion Web1\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\carmesy\Desktop\Materias\3-C\Aplicaciones web\Aplicacion nueva\Aplicacion Web1\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Logging.dll
+C:\Users\carmesy\Desktop\Materias\3-C\Aplicaciones web\Aplicacion nueva\Aplicacion Web1\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Protocols.dll
+C:\Users\carmesy\Desktop\Materias\3-C\Aplicaciones web\Aplicacion nueva\Aplicacion Web1\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Users\carmesy\Desktop\Materias\3-C\Aplicaciones web\Aplicacion nueva\Aplicacion Web1\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Tokens.dll
+C:\Users\carmesy\Desktop\Materias\3-C\Aplicaciones web\Aplicacion nueva\Aplicacion Web1\bin\Debug\netcoreapp3.1\Newtonsoft.Json.dll
+C:\Users\carmesy\Desktop\Materias\3-C\Aplicaciones web\Aplicacion nueva\Aplicacion Web1\bin\Debug\netcoreapp3.1\System.Collections.Immutable.dll
+C:\Users\carmesy\Desktop\Materias\3-C\Aplicaciones web\Aplicacion nueva\Aplicacion Web1\bin\Debug\netcoreapp3.1\System.ComponentModel.Annotations.dll
+C:\Users\carmesy\Desktop\Materias\3-C\Aplicaciones web\Aplicacion nueva\Aplicacion Web1\bin\Debug\netcoreapp3.1\System.Configuration.ConfigurationManager.dll
+C:\Users\carmesy\Desktop\Materias\3-C\Aplicaciones web\Aplicacion nueva\Aplicacion Web1\bin\Debug\netcoreapp3.1\System.Diagnostics.DiagnosticSource.dll
+C:\Users\carmesy\Desktop\Materias\3-C\Aplicaciones web\Aplicacion nueva\Aplicacion Web1\bin\Debug\netcoreapp3.1\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\carmesy\Desktop\Materias\3-C\Aplicaciones web\Aplicacion nueva\Aplicacion Web1\bin\Debug\netcoreapp3.1\System.Runtime.Caching.dll
+C:\Users\carmesy\Desktop\Materias\3-C\Aplicaciones web\Aplicacion nueva\Aplicacion Web1\bin\Debug\netcoreapp3.1\System.Security.Cryptography.ProtectedData.dll
+C:\Users\carmesy\Desktop\Materias\3-C\Aplicaciones web\Aplicacion nueva\Aplicacion Web1\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\Users\carmesy\Desktop\Materias\3-C\Aplicaciones web\Aplicacion nueva\Aplicacion Web1\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\Users\carmesy\Desktop\Materias\3-C\Aplicaciones web\Aplicacion nueva\Aplicacion Web1\bin\Debug\netcoreapp3.1\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\carmesy\Desktop\Materias\3-C\Aplicaciones web\Aplicacion nueva\Aplicacion Web1\bin\Debug\netcoreapp3.1\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.pdb
+C:\Users\carmesy\Desktop\Materias\3-C\Aplicaciones web\Aplicacion nueva\Aplicacion Web1\bin\Debug\netcoreapp3.1\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\carmesy\Desktop\Materias\3-C\Aplicaciones web\Aplicacion nueva\Aplicacion Web1\bin\Debug\netcoreapp3.1\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.pdb
+C:\Users\carmesy\Desktop\Materias\3-C\Aplicaciones web\Aplicacion nueva\Aplicacion Web1\bin\Debug\netcoreapp3.1\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\carmesy\Desktop\Materias\3-C\Aplicaciones web\Aplicacion nueva\Aplicacion Web1\bin\Debug\netcoreapp3.1\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.pdb
+C:\Users\carmesy\Desktop\Materias\3-C\Aplicaciones web\Aplicacion nueva\Aplicacion Web1\bin\Debug\netcoreapp3.1\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\carmesy\Desktop\Materias\3-C\Aplicaciones web\Aplicacion nueva\Aplicacion Web1\bin\Debug\netcoreapp3.1\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.pdb
+C:\Users\carmesy\Desktop\Materias\3-C\Aplicaciones web\Aplicacion nueva\Aplicacion Web1\bin\Debug\netcoreapp3.1\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
+C:\Users\carmesy\Desktop\Materias\3-C\Aplicaciones web\Aplicacion nueva\Aplicacion Web1\bin\Debug\netcoreapp3.1\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\carmesy\Desktop\Materias\3-C\Aplicaciones web\Aplicacion nueva\Aplicacion Web1\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Relational.Design.dll

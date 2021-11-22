@@ -1,0 +1,65 @@
+﻿@model Kiosko.Models.Divisione
+
+@{
+    ViewData["Title"] = "Create";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<h1>AGREGAR NUEVO REGISTRO</h1>
+
+
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form asp-action="Create" enctype="multipart/form-data">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <div class="form-group">
+                <label asp-for="Nombredivision" class="control-label"></label>
+                <input asp-for="Nombredivision" class="form-control" />
+                <span asp-validation-for="Nombredivision" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Coordinador" class="control-label"></label>
+                <input asp-for="Coordinador" class="form-control" />
+                <span asp-validation-for="Coordinador" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Descripciondivision" class="control-label"></label>
+                <input asp-for="Descripciondivision" class="form-control" />
+                <span asp-validation-for="Descripciondivision" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Planestudio" class="control-label"></label>
+                <input type="file" name="archivo" asp-for="Planestudio" class="form-control" />
+                <span asp-validation-for="Planestudio" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Videodivision" class="control-label"></label>
+                <input asp-for="Videodivision" class="form-control" />
+                <span asp-validation-for="Videodivision" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Fotodivision" class="control-label"></label>
+                <input type="file" name="archivo1" asp-for="Fotodivision" class="form-control" />
+                <span asp-validation-for="Fotodivision" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Create" class="btn btn-primary" />
+            </div>
+        </form>
+    </div>
+</div>
+
+<div>
+    <a class="btn btn-outline-primary" asp-action="Index">VOLBER</a>
+</div>
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}

@@ -1,0 +1,75 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@model Kiosko.Models.Registrosalumno
+@{
+}
+
+<section id="hero" class="d-flex align-items-center">
+
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-6 d-flex flex-column justify-content-center pt-4 pt-lg-0 order-2 order-lg-1 aos-init aos-animate" data-aos="fade-up" data-aos-delay="200">
+                <h1>CONOCENOS A NOSOTROS Y A NUESTRO PROYECTO</h1>
+                <h2>lee mas acerca de este proyecto, tal vez sea de tu agrado..!!</h2>
+                <div class="d-flex justify-content-center justify-content-lg-start">
+                    <a asp-area="" asp-controller="Home" asp-action="InfoProyectofotos" asp-route-id="@Model.Idproyectos" class="btn-get-started scrollto">VER GALERIA</a>
+                    <a asp-area="" asp-controller="Home" asp-action="InfoProyectointegrantes" asp-route-id="@Model.Idproyectos" class="btn-get-started scrollto">INTEGRANTES</a>
+                </div>
+            </div>
+            <div class="col-lg-6 order-1 order-lg-2 hero-img aos-init aos-animate" data-aos="zoom-in" data-aos-delay="200">
+                <img src="assets/img/hero-img.png" class="img-fluid animated" alt="">
+            </div>
+        </div>
+    </div>
+
+</section>
+
+<section id="portfolio-details" class="portfolio-details">
+    <div class="container">
+
+        <div class="row gy-4">
+
+            <div class="float-left">
+
+                <img src="~/img/@Html.DisplayFor(model=>model.IdproyectosNavigation.Fotoproyecto)" class="img-fluid">
+
+                <div class="float-left">
+                    <div class="portfolio-info">
+                        <h3>INFORMACION DEL PROYECTO</h3>
+                        <ul>
+                            <li><strong>NOMBRE DEL PROYECTO</strong>: @Html.DisplayFor(model => model.IdproyectosNavigation.Nombreproyecto)</li>
+                            <li><strong>DIVISION A LA QUE PERTENECE</strong>: @Html.DisplayFor(model => model.IdproyectosNavigation.IddivisionesNavigation.Nombredivision)</li>
+                            <li><strong>CUATRIMESTRE</strong>:@Html.DisplayFor(model => model.IdgradoygrupoNavigation.Gradoygrupo) </li>
+                         
+                        </ul>
+                    </div>
+                    <div class="portfolio-description">
+                        <h2>DETALLES DEL PROYECTO</h2>
+                        <p>
+                            @Html.DisplayFor(model=>model.IdproyectosNavigation.Descripcionproyecto)
+                                   
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <h1>MIRA NUESTRO VIDEO</h1>
+            <iframe width="560" height="315" src="@Html.DisplayFor(model=>model.IdproyectosNavigation.Videoproyecto)"
+                    title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            
+
+        </div>
+
+       
+
+
+
+    </div>
+
+       
+
+        
+
+    
+</section>
+

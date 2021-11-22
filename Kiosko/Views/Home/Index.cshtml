@@ -1,0 +1,414 @@
+﻿
+@{
+    ViewData["Title"] = "Home Page";
+}
+@model Kiosko.Models.Registrosalumno
+
+<br />
+<br />
+<br />
+<br />
+<br />
+
+
+
+
+<main id="main">
+
+    <section id="hero" class="d-flex align-items-center">
+
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6 d-flex flex-column justify-content-center pt-4 pt-lg-0 order-2 order-lg-1" data-aos="fade-up" data-aos-delay="200">
+                    <h1>Conece los mejores proyectos y carreras de la UTM</h1>
+                    <h2>Mira el talento de nuestros alumnos</h2>
+                    <div class="d-flex justify-content-center justify-content-lg-start">
+                        <a asp-action="Proyectos" asp-controller="Home" class="btn-get-started scrollto">Ver los proyectos</a>
+                        <a asp-controller="Home" asp-action="Divisiones" class="btn-get-started scrollto">Ver las divisiones</a>
+                    </div>
+                </div>
+                <div class="col-lg-6 order-1 order-lg-2 hero-img" data-aos="zoom-in" data-aos-delay="200">
+                    <img src="~/img/hero-img.png" class="img-fluid animated" alt="">
+                </div>
+            </div>
+        </div>
+
+    </section><!-- End Hero -->
+    <!-- ======= Cta Section ======= -->
+    <section id="cta" class="cta">
+        <div class="container" data-aos="zoom-in">
+
+            <div class="row">
+                <div class="col-lg-9 text-center text-lg-start">
+                    <h3>Mira alguno de los proyectos mas destacados</h3>
+                    <p>los proyecto y la inovacion son lo que mueve al mundo, en la UNIVERSIDAD TECNOLOGICA METROPOLITANA son uno de nuestras prioridades y tambien son lo que mas nos enorguyesen</p>
+                </div>
+                <div class="col-lg-3 cta-btn-container text-center">
+                    <a class="cta-btn align-middle" href="#why-us">VER</a>
+                </div>
+            </div>
+
+        </div>
+    </section><!-- End Cta Section -->
+    <!-- ======= Why Us Section ======= -->
+    <section id="why-us" class="why-us section-bg">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        @*@foreach (var item in Model)
+        {*@
+
+        <div class="container-fluid" data-aos="fade-up">
+
+            <div class="row">
+
+                <div class="col-lg-7 d-flex flex-column justify-content-center align-items-stretch  order-2 order-lg-1">
+
+                    <div class="content">
+                        <h3><strong>@Html.DisplayFor(model => model.IdproyectosNavigation.Nombreproyecto)</strong></h3>
+                        <p>
+                            <a asp-area="" asp-controller="Home" asp-action="infoDivision" asp-route-id="@Model.Iddivisiones">@Html.DisplayFor(model => model.IddivisionesNavigation.Nombredivision)</a>
+                        </p>
+                    </div>
+
+                    <div class="accordion-list">
+                        <ul>
+                            <li>
+                                <a class="collapse" asp-area="" asp-controller="Home" asp-action="InfoProyecto" asp-route-id="@Model.Idproyectos">conoce mas del proyecto <i class="bx bx-chevron-down icon-show"></i><i></i></a>
+                                <div id="accordion-list-1">
+                                    <p>
+                                        @Html.DisplayFor(model => model.IdproyectosNavigation.Descripcionproyecto)
+
+
+                                    </p>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+
+                </div>
+                <div class="col-lg-5 align-items-stretch order-1 order-lg-2 img" data-aos="fade-right" data-aos-delay="100">
+                    <img src="~/img/@Html.DisplayFor(model => model.IdproyectosNavigation.Fotoproyecto)" class="img-fluid" />
+                </div>
+
+
+            </div>
+
+
+
+
+
+
+
+            @*<div class="container-fluid" data-aos="fade-up">
+
+                <div class="row">
+
+                    <div class="col-lg-7 d-flex flex-column justify-content-center align-items-stretch  order-2 order-lg-1">
+
+                        <div class="content">
+                            <h3><strong>@Html.DisplayFor(model => model.IdproyectosNavigation.Nombreproyecto)</strong></h3>
+                            <p>
+                                <a asp-area="" asp-controller="Home" asp-action="infoDivision" asp-route-id="@Model.Iddivisiones">@Html.DisplayFor(model => model.IddivisionesNavigation.Nombredivision)</a>
+                            </p>
+                        </div>
+
+                        <div class="accordion-list">
+                            <ul>
+                                <li>
+                                    <a class="collapse" asp-area="" asp-controller="Home" asp-action="InfoProyecto" asp-route-id="@Model.Idproyectos">conoce mas del proyecto <i class="bx bx-chevron-down icon-show"></i><i></i></a>
+                                    <div id="accordion-list-1">
+                                        <p>
+                                            @Html.DisplayFor(model => model.IdproyectosNavigation.Descripcionproyecto)
+
+
+                                        </p>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+
+                    </div>
+                    <div class="col-lg-5 align-items-stretch order-1 order-lg-2 img" data-aos="fade-right" data-aos-delay="100">
+                        <img src="~/img/@Html.DisplayFor(model => model.IdproyectosNavigation.Fotoproyecto)" class="img-fluid" />
+                    </div>
+
+
+                </div>
+            </div>
+
+
+
+
+
+
+
+            <div class="container-fluid" data-aos="fade-up">
+
+                <div class="row">
+
+                    <div class="col-lg-7 d-flex flex-column justify-content-center align-items-stretch  order-2 order-lg-1">
+
+                        <div class="content">
+                            <h3><strong>@Html.DisplayFor(model => model.IdproyectosNavigation.Nombreproyecto)</strong></h3>
+                            <p>
+                                <a asp-area="" asp-controller="Home" asp-action="infoDivision" asp-route-id="@Model.Iddivisiones">@Html.DisplayFor(model => model.IddivisionesNavigation.Nombredivision)</a>
+                            </p>
+                        </div>
+
+                        <div class="accordion-list">
+                            <ul>
+                                <li>
+                                    <a class="collapse" asp-area="" asp-controller="Home" asp-action="InfoProyecto" asp-route-id="@Model.Idproyectos">conoce mas del proyecto <i class="bx bx-chevron-down icon-show"></i><i></i></a>
+                                    <div id="accordion-list-1">
+                                        <p>
+                                            @Html.DisplayFor(model => model.IdproyectosNavigation.Descripcionproyecto)
+
+
+                                        </p>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+
+                    </div>
+                    <div class="col-lg-5 align-items-stretch order-1 order-lg-2 img" data-aos="fade-right" data-aos-delay="100">
+                        <img src="~/img/@Html.DisplayFor(model => model.IdproyectosNavigation.Fotoproyecto)" class="img-fluid" />
+                    </div>
+
+
+                </div>
+            </div>*@
+
+
+
+
+
+
+            @*<div class="row">
+
+        <div class="col-lg-7 d-flex flex-column justify-content-center align-items-stretch  order-2 order-lg-1">
+
+            <div class="content">
+                <h3><strong>@Html.DisplayFor(modelItem => item.IdproyectosNavigation.Nombreproyecto)</strong></h3>
+                <p>
+                    <a href="">@Html.DisplayFor(modelItem => item.IddivisionesNavigation.Nombredivision)</a>
+                </p>
+            </div>
+
+            <div class="accordion-list">
+                <ul>
+                    <li>
+                        <a class="collapse" asp-area="" asp-controller="Home" asp-action="InfoProyecto" asp-route-id="@Model.Idproyectos">conoce mas del proyecto <i class="bx bx-chevron-down icon-show"></i><i></i></a>
+                        <div id="accordion-list-1">
+                            <p>
+                                @Html.DisplayFor(modelItem => item.IdproyectosNavigation.Descripcionproyecto)
+
+
+                            </p>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+
+        </div>
+        <div class="col-lg-5 align-items-stretch order-1 order-lg-2 img" data-aos="fade-right" data-aos-delay="100">
+            <img src="~/img/@Html.DisplayFor(modelItem => item.IdproyectosNavigation.Fotoproyecto)" class="img-fluid" />
+        </div>*@
+
+
+            <!--</div>
+
+
+
+
+
+
+
+    <div class="row">
+
+        <div class="col-lg-7 d-flex flex-column justify-content-center align-items-stretch  order-2 order-lg-1">
+
+            <div class="content">
+                <h3><strong>Html.DisplayFor(modelItem => item.IdproyectosNavigation.Nombreproyecto)</strong></h3>
+                <p>
+                    <a href="">Html.DisplayFor(modelItem => item.IddivisionesNavigation.Nombredivision)</a>
+                </p>
+            </div>
+
+            <div class="accordion-list">
+                <ul>
+                    <li>
+                        <a class="collapse" asp-area="" asp-controller="Home" asp-action="InfoProyecto" asp-route-id="Model.Idproyectos">conoce mas del proyecto <i class="bx bx-chevron-down icon-show"></i><i></i></a>
+                        <div id="accordion-list-1">
+                            <p>
+                                Html.DisplayFor(modelItem => item.IdproyectosNavigation.Descripcionproyecto)
+
+
+                            </p>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+
+        </div>
+        <div class="col-lg-5 align-items-stretch order-1 order-lg-2 img" data-aos="fade-right" data-aos-delay="100">
+            <img src="~/img/Html.DisplayFor(modelItem => item.IdproyectosNavigation.Fotoproyecto)" class="img-fluid" />
+        </div>
+
+
+    </div>-->
+            <!-- ======= Cta1 Section ======= -->
+            <section id="cta1" class="cta">
+                <div class="container" data-aos="zoom-in">
+
+                    <div class="row">
+                        <div class="col-lg-9 text-center text-lg-start">
+                            <h3>Conoce las divisiones que la UNIVERSIDAD TECNOLOGICA METROPOLITANA tiene</h3>
+                            <p> Cada division de la UTM tiene un gran desarrollo en lo que a sus proyectos se refiere, esto es gracias a los docentes que estan mas que calificados para instruir a sus alumnos de sus respectivas areas.</p>
+                        </div>
+                        <div class="col-lg-3 cta-btn-container text-center">
+                            <a class="cta-btn align-middle" href="#secciondedivisiones">VER</a>
+                        </div>
+                    </div>
+
+                </div>
+            </section><!-- End Cta Section -->
+          
+
+
+
+
+
+
+
+
+
+
+        <div id="secciondedivisiones" class="row">
+
+            <div class="col-lg-5 d-flex align-items-center" data-aos="fade-right" data-aos-delay="100">
+                <img src="~/img/@Html.DisplayFor(model => model.IddivisionesNavigation.Fotodivision)" class="img-fluid" alt="">
+            </div>
+            <div class="col-lg-7 d-flex flex-column justify-content-center align-items-stretch  order-2 order-lg-1">
+                <div class="content">
+                    <h3><strong>@Html.DisplayFor(model => model.IddivisionesNavigation.Nombredivision)</strong></h3>
+                    <p>
+                        @Html.DisplayFor(model => model.IddivisionesNavigation.Descripciondivision)
+                    </p>
+                </div>
+
+                <div class="accordion-list">
+                    <ul>
+                        <li>
+                            <a class="collapse" href="infodivisiones.html"> conoce mas de la division <i class="bx bx-chevron-down icon-show"></i><i></i></a>
+                            <div id="accordion-list-5">
+
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+                <div class="accordion-list">
+                    <ul>
+                        <li>
+                            <a class="collapse" asp-area="" asp-controller="Home" asp-action="proyectosdedivision" asp-route-id="@Model.Iddivisiones"> ver los proyectos del area: @Html.DisplayFor(model => model.IddivisionesNavigation.Nombredivision) <i class="bx bx-chevron-down icon-show"></i><i></i></a>
+                            <div id="accordion-list-6">
+
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+            
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+            <section id="cliens1" class="cliens section-bg">
+                <div class="container">
+
+                    <div class="row" data-aos="zoom-in">
+
+                        <div class="col">
+                            <h1>NO OLVIDES VISITAR LOS PROYECTOS</h1>
+                        </div>
+                    </div>
+
+                </div>
+
+            </section>
+
+
+
+
+</main>

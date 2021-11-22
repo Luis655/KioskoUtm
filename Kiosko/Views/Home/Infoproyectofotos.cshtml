@@ -1,0 +1,44 @@
+﻿@model IEnumerable<Kiosko.Models.Fotosproyecto>
+@{
+    ViewData["Title"] = "Infoproyectofotos";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h1>GALERIA DEL PROYECTO</h1>
+
+
+
+@foreach (var item in Model)
+{
+
+
+<section id="portfolio" class="portfolio">
+    <div class="container aos-init aos-animate" data-aos="fade-up">
+
+        <div class="section-title">
+            <h2>Portfolio</h2>
+           
+        </div>
+
+        <ul id="portfolio-flters" class="d-flex justify-content-center aos-init aos-animate" data-aos="fade-up" data-aos-delay="100">
+            <li data-filter="*" class="">All</li>
+            <li data-filter=".filter-app" class="">App</li>
+            <li data-filter=".filter-card" class="">Card</li>
+            <li data-filter=".filter-web" class="filter-active">Web</li>
+        </ul>
+
+        <div class="row portfolio-container aos-init aos-animate" data-aos="fade-up" data-aos-delay="200" style="position: relative; height: 472.438px;">
+
+            <div class="col-lg-4 col-md-6 portfolio-item filter-app" style="position: absolute; left: 0px; top: 0px; display: none;">
+                <div class="portfolio-img"><img src="~/img/@Html.DisplayFor(modelItem=> item.Fotoproyecto)" class="img-fluid" alt=""></div>
+                <div class="portfolio-info">
+                    <a href="assets/img/portfolio/portfolio-1.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title=""><i class="bx bx-plus"></i>@Html.DisplayFor(modelItem => item.IdproyectosNavigation.IddivisionesNavigation.Nombredivision)</a>
+                    <a href="portfolio-details.html" class="details-link" title="More Details"><i class="bx bx-link"></i>@Html.DisplayFor(modelItem => item.IdproyectosNavigation.Nombreproyecto)</a>
+                </div>
+            </div>
+
+
+        </div>
+
+    </div>
+</section>   }

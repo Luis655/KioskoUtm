@@ -1,0 +1,103 @@
+﻿@model Kiosko.Models.Registrosprofesore
+
+@{
+    ViewData["Title"] = "Details";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<h1>DETALLES DEL PROFESOR</h1>
+
+<div>
+   
+    <hr />
+    <dl class="row">
+        <dt class="col-sm-2">
+            NOMBRE
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.Nombre)
+        </dd>
+        <dt class="col-sm-2">
+            APELLIDO PATERNO
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.Apellidop)
+        </dd>
+        <dt class="col-sm-2">
+            APELLIDO MATERNO
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.Apellidom)
+        </dd>
+        <dt class="col-sm-2">
+            TELEFONO
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.Telefono)
+        </dd>
+        <dt class="col-sm-2">
+            DIRECCION
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.Direccion)
+        </dd>
+        <dt class="col-sm-2">
+            FECHA DE NACIMIENTO
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.Fechanac)
+        </dd>
+        <dt class="col-sm-2">
+            CORREO
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.Correo)
+        </dd>
+        <dt class="col-sm-2">
+            CONTRASEÑA
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.Contraseña)
+        </dd>
+        <dt class="col-sm-2">
+            FOTO DEL PROFESOR
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.Fotoprofesor)
+        </dd>
+        <dt class="col-sm-2">
+            CARGO
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.IdcargoNavigation.Cargo1)
+        </dd>
+        <dt class="col-sm-2">
+            DIVISION
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.IddivisionesNavigation.Nombredivision)
+        </dd>
+        <dt class="col-sm-2">
+            PROYECTO
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.IdproyectosNavigation.Nombreproyecto)
+        </dd>
+        <dt class="col-sm-2">
+            ESTATUS
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.IdstatusNavigation.Statususuario1)
+        </dd>
+    </dl>
+</div>
+<div>
+    <a class="btn btn-outline-primary" asp-action="Edit" asp-route-id="@Model.Idprofesor">EDITAR</a> |
+    <a class="btn btn-outline-primary" asp-action="Index">VOLVER</a>
+</div>

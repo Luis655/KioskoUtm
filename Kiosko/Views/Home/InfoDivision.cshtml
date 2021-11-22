@@ -1,0 +1,79 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@model Kiosko.Models.Registrosprofesore
+@{
+    ViewData["Title"] = "InfoDivision";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+
+
+<section id="hero" class="d-flex align-items-center">
+
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-6 d-flex flex-column justify-content-center pt-4 pt-lg-0 order-2 order-lg-1 aos-init aos-animate" data-aos="fade-up" data-aos-delay="200">
+                <h1>CONOCENOS A NOSOTROS Y A NUESTRO DIVISION</h1>
+                <h2>lee mas acerca de este DIVICION, tal vez sea de tu agrado..!!</h2>
+                <div class="d-flex justify-content-center justify-content-lg-start">
+                    <a asp-area="" asp-controller="Home" asp-action="InfoDivisionfotos" asp-route-id="@Model.Iddivisiones" class="btn-get-started scrollto">VER GALERIA</a>
+                    <a asp-area="" asp-controller="Home" asp-action="InfoDivisionfotoseintegrantes" asp-route-id="@Model.Iddivisiones" class="btn-get-started scrollto">INTEGRANTES</a>
+                </div>
+            </div>
+            <div class="col-lg-6 order-1 order-lg-2 hero-img aos-init aos-animate" data-aos="zoom-in" data-aos-delay="200">
+                <img src="assets/img/hero-img.png" class="img-fluid animated" alt="">
+            </div>
+        </div>
+    </div>
+
+</section>
+
+<section id="portfolio-details" class="portfolio-details">
+    <div class="container">
+
+        <div class="row gy-4">
+
+            <div class="float-left">
+
+                <img src="~/img/@Html.DisplayFor(model=>model.IddivisionesNavigation.Fotodivision)" class="img-fluid">
+
+                <div class="float-left">
+                    <div class="portfolio-info">
+                        <h3>INFORMACION DE LA DIVISION</h3>
+                        <ul>
+                            <li><strong>NOMBRE DE LA DIVISION</strong>: @Html.DisplayFor(model => model.IddivisionesNavigation.Nombredivision)</li>
+                            <li><strong>ENCARGADO DE LA DIVISION</strong>: @Html.DisplayFor(model => model.IdproyectosNavigation.IddivisionesNavigation.Coordinador)</li>
+                            @*<li><strong>CUATRIMESTRE</strong>:Html.DisplayFor(model => model.IddivisionesNavigation.) </li>*@
+                            <!--<li><strong>MIRA UN VIDEO</strong>: <a href="#">VIDEO DEL PROYECTO</a></li>-->
+                            <li><strong>DESCARGA EL PLAN DE ESTUDIOS</strong>: <a asp-area="" asp-controller="Home" asp-action="Divisionespdf" asp-route-id="@Model.Iddivisiones">PLAN DE ESTUDIOS</a></li>
+                        </ul>
+                    </div>
+                    <div class="portfolio-description">
+                        <h2>DETALLES DE LA DIVISION</h2>
+                        <p>
+                            @Html.DisplayFor(model => model.IddivisionesNavigation.Descripciondivision)
+
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <h1>MIRA NUESTRO VIDEO</h1>
+            <iframe width="560" height="315" src="@Html.DisplayFor(model=>model.IddivisionesNavigation.Videodivision)"
+                    title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+
+        </div>
+
+
+
+
+
+    </div>
+
+
+
+
+
+
+</section>

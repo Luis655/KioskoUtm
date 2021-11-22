@@ -1,0 +1,122 @@
+﻿@model IEnumerable<Kiosko.Models.Registrosalumno>
+
+@{
+    ViewData["Title"] = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<h1>GESTIONAR ALUMNOS</h1>
+
+<p>
+    <a class="btn btn-outline-primary" asp-action="Create">Agregar nuevo Alumno</a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                NOMBRE(S)
+            </th>
+            <th>
+                APELLIDO MATERNO
+            </th>
+            <th>
+               APELLIDO MATERNO
+            </th>
+            <th>
+                TELEFONO
+            </th>
+            <th>
+                DIRECCION
+            </th>
+            <th>
+                FECHA DE NACIMIENTO
+            </th>
+            <th>
+                FOTO
+            </th>
+            @*<th>
+                CORREO
+            </th>
+            <th>
+                CONTRASEÑA
+            </th>*@
+            @*<th>
+                CARGO
+            </th>*@
+            <th>
+                DIVISION
+            </th>
+            <th>
+                GRADO Y GRUPO
+            </th>
+            <th>
+                PROYECTO
+            </th>
+            @*<th>
+                ESTATUS
+            </th>*@
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Nombre)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Apellidop)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Apellidom)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Telefono)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Direccion)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Fechanac)
+                </td>
+                <td>
+                    <img src="~/img/@Html.DisplayFor(modelItem => item.Fotoalumno)" width="40" height="40" />
+                   
+                </td>
+                @*<td>
+                    @Html.DisplayFor(modelItem => item.Correo)
+                </td>*@
+                @*<td>
+                    @Html.DisplayFor(modelItem => item.Contraseña)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.IdcargoNavigation.Idcargo)
+                </td>*@
+                <td>
+                    @Html.DisplayFor(modelItem => item.IddivisionesNavigation.Nombredivision)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.IdgradoygrupoNavigation.Gradoygrupo)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.IdproyectosNavigation.Nombreproyecto)
+                </td>
+                @*<td>
+                    @Html.DisplayFor(modelItem => item.IdstatusNavigation.Idstatus)
+                </td>*@
+                <td>
+                    <a class="btn btn-group-vertical" asp-action="Edit" asp-route-id="@item.Idalumno">EDITAR</a> |
+                    <a class="btn btn-group-vertical" asp-action="Details" asp-route-id="@item.Idalumno">DETALLES</a> |
+                    <a class="btn btn-group-vertical" asp-action="Delete" asp-route-id="@item.Idalumno">BORRAR</a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>

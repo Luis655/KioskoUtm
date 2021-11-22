@@ -1,0 +1,64 @@
+﻿@model Kiosko.Models.Divisione
+
+@{
+    ViewData["Title"] = "Delete";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<h1>BORRAR REGISTRO</h1>
+
+<h3>ESTAS SEGURI DE BORRAR ESTA DIVISION?</h3>
+<div>
+    <h4>DIVISIONES</h4>
+    <hr />
+    <dl class="row">
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.Nombredivision)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.Nombredivision)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.Coordinador)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.Coordinador)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.Descripciondivision)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.Descripciondivision)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.Planestudio)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.Planestudio)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.Videodivision)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.Videodivision)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.Fotodivision)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.Fotodivision)
+        </dd>
+    </dl>
+
+    <form asp-action="Delete">
+        <input type="hidden" asp-for="Iddivisiones" />
+        <input type="submit" value="Delete" class="btn btn-danger" /> |
+        <a class="btn btn-outline-primary" asp-action="Index">VOLVER</a>
+    </form>
+</div>

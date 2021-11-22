@@ -1,0 +1,64 @@
+﻿@model IEnumerable<Kiosko.Models.Registrosprofesore>
+@{
+    ViewData["Title"] = "InfoDivisionfotoseintegrantes";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+
+
+<br />
+<br />
+<br />
+<br />
+<br />
+
+<h1>MIEBROS DEL EQUIPO</h1>
+
+<div class="section-title">
+    <h2>EQUIPO</h2>
+    <p>CONOCE A LOS INTEGRANTES DE NUESTRA DIVISON</p>
+</div>
+
+
+*@foreach (var item in Model)
+
+{
+    <section id="team" class="team section-bg">
+        <div class="container aos-init aos-animate" data-aos="fade-up">
+
+
+            <div class="row">
+
+                <div class="col-lg-6">
+                    <div class="member d-flex align-items-start aos-init aos-animate" data-aos="zoom-in" data-aos-delay="100">
+                        <div class="pic"><img src="~/img/@Html.DisplayFor(modelItem=> item.Fotoprofesor)" class="img-fluid" alt=""></div>
+                        <div class="member-info">
+                            <h4>@Html.DisplayFor(modelItem => item.Nombre) @Html.DisplayFor(modelItem => item.Apellidop) @Html.DisplayFor(modelItem => item.Apellidom)</h4>
+                            <span>@Html.DisplayFor(modelItem => item.IdcargoNavigation.Cargo1)</span>
+                            <p>>equipo del area: @Html.DisplayFor(modelItem => item.IddivisionesNavigation.Nombredivision)</p>
+                           
+                            <p>conoce mas de @Html.DisplayFor(modelItem => item.Nombre)</p>
+                            <div class="social">
+                                <a href="~/img/twiter.png" class="img-fluid"><i class="ri-twitter-fill"></i></a>
+                                <a href="~/img/facebok.png" class="img-fluid"><i class="ri-facebook-fill"></i></a>
+                                <a href="~/img/instagram.jpg" class="img-fluid"><i class="ri-instagram-fill"></i></a>
+                                <a href=""> <i class="ri-linkedin-box-fill"></i> </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+    </section>
+
+
+
+
+
+
+}
+
+
+

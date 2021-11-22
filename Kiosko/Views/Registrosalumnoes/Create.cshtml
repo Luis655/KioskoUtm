@@ -1,0 +1,100 @@
+﻿@model Kiosko.Models.Registrosalumno
+
+@{
+    ViewData["Title"] = "Create";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<h1>AGREGAR NUEVO REGISTRO</h1>
+
+
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form asp-action="Create" enctype="multipart/form-data">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <div class="form-group">
+                <center><label asp-for="Nombre" class="control-label" >Nombre del nuevo alumno</label></center>
+                <input asp-for="Nombre" class="form-control" required type="text" placeholder="agrega tu nombre" maxlength="20"/>
+                <span asp-validation-for="Nombre" class="text-danger" ></span>
+            </div>
+            <div class="form-group">
+                <center><label asp-for="Apellidop" class="control-label">Apellido Paterno</label></center>
+                <center><input asp-for="Apellidop" class="form-control" required placeholder="agrega tu primer apellido" maxlength="20"/></center>
+                <span asp-validation-for="Apellidop" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <center><label asp-for="Apellidom" class="control-label">Apellido Materno</label></center>
+                <input asp-for="Apellidom" class="form-control"  required placeholder="agrega tu segundo apellido" maxlength="20"/>
+                <span asp-validation-for="Apellidom" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <center> <label asp-for="Idgradoygrupo" class="control-label">Grado y Grupo</label></center>
+                <select asp-for="Idgradoygrupo" class="form-control" asp-items="ViewBag.Idgradoygrupo"></select>
+            </div>
+            <div class="form-group">
+                <center><label asp-for="Iddivisiones" class="control-label">Division</label></center>
+                <select asp-for="Iddivisiones" class="form-control" asp-items="ViewBag.Iddivisiones"></select>
+            </div>
+            <div class="form-group">
+                <center><label asp-for="Idproyectos" class="control-label">Proyecto</label></center>
+                <select asp-for="Idproyectos" class="form-control" asp-items="ViewBag.Idproyectos"></select>
+            </div>
+            <div class="form-group">
+                <center><label asp-for="Telefono" class="control-label"></label></center>
+                <input asp-for="Telefono" class="form-control" required maxlength="10" />
+                <span asp-validation-for="Telefono" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <center><label asp-for="Direccion" class="control-label"></label></center>
+                <input asp-for="Direccion" class="form-control" required />
+                <span asp-validation-for="Direccion" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <center><label asp-for="Fechanac" class="control-label">Fecha de Nacimiento</label></center>
+                <input asp-for="Fechanac" class="form-control" required min="1950-01-01" max="2010-01-01"/>
+                <span asp-validation-for="Fechanac" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <center><label asp-for="Idstatus" class="control-label"></label>Estatus</center>
+                <select asp-for="Idstatus" class="form-control" asp-items="ViewBag.Idstatus"></select>
+            </div>
+            <div class="form-group">
+                <center> <label asp-for="Fotoalumno" class="control-label">Foto del Alumno</label></center>
+                <input type="file" name="archivo" asp-for="Fotoalumno" class="form-control" />
+                <span asp-validation-for="Fotoalumno" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <center><label asp-for="Correo" class="control-label"></label></center>
+                <input asp-for="Correo" class="form-control" type="email" required maxlength="28" />
+                <span asp-validation-for="Correo" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <center><label asp-for="Contraseña" class="control-label"></label></center>
+                <input asp-for="Contraseña" class="form-control" required maxlength="20" />
+                <span asp-validation-for="Contraseña" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <center><label asp-for="Idcargo" class="control-label">Cargo</label></center>
+                <select asp-for="Idcargo" class="form-control" asp-items="ViewBag.Idcargo"></select>
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Create" class="btn btn-primary" />
+            </div>
+        </form>
+    </div>
+</div>
+
+<div>
+    <a class="btn btn-outline-primary" asp-action="Index">REGRESAR</a>
+</div>
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}

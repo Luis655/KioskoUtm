@@ -1,0 +1,68 @@
+﻿@model IEnumerable<Kiosko.Models.Proyecto>
+
+@{
+    ViewData["Title"] = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<h1>GESTION DE PROYECTOS</h1>
+
+<p>
+    <a class="btn btn-outline-primary" asp-action="Create">AGREGAR</a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+               NOMBRE
+            </th>
+            <th>
+                VIDEO 
+            </th>
+            <th>
+                DESCRIPCION
+            </th>
+            <th>
+               FOTO
+            </th>
+            <th>
+                DIVISION
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Nombreproyecto)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Videoproyecto)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Descripcionproyecto)
+                </td>
+                <td>
+                    <img src="~/img/@Html.DisplayFor(modelItem => item.Fotoproyecto)" width="40" height="40" />
+                    
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.IddivisionesNavigation.Nombredivision)
+                </td>
+                <td>
+                    <a class="btn btn-outline-primary" asp-action="Edit" asp-route-id="@item.Idproyectos">EDITAR</a> |
+                    <a class="btn btn-outline-primary" asp-action="Details" asp-route-id="@item.Idproyectos">DETALLES</a> |
+                    <a class="btn btn-outline-primary" asp-action="Delete" asp-route-id="@item.Idproyectos">BORRAR</a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>

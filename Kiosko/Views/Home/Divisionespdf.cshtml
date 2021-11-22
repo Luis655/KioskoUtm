@@ -1,0 +1,17 @@
+﻿@model Kiosko.Models.Divisione
+@{
+    ViewData["Title"] = "Divisionespdf";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<br /><br /><br /><br /><br />
+
+<h1>Descarga el plan de estudio de: @Html.DisplayFor(model=>model.Nombredivision) </h1>
+<body>
+    <h1> PLAN DE ESTUDIO</h1>
+    <center>
+
+        <iframe src="~/img/@Html.DisplayFor(model=> model.Planestudio)" width="900" height="1200">
+        </iframe>
+    </center>
+</body>
